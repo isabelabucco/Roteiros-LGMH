@@ -1,0 +1,21 @@
+format: jb-book
+root: introduction
+chapters:
+- file: dados-quantif
+- file: quantif
+  sections:
+   - file: quantif2
+   - file: quantif3
+   - file: quantif4
+   - file: quantif5
+   - file: quantif6
+   - file: quantif7
+   - file: quantif8
+   - file: quantif9
+- file: purifi
+  sections:
+   - file: purifi2
+   - file: purifi3
+   - file: purifi4
+   - file: purifi5
+   - file: purifi6
