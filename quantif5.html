@@ -1,0 +1,523 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Quantificando amostras &#8212; Roteiros</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Juntando estoques" href="quantif6.html" />
+    <link rel="prev" title="Calibrar" href="quantif4.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+      
+      
+      <h1 class="site-logo" id="site-title">Roteiros</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="introduction.html">
+                    Introdução
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="dados-quantif.html">
+   Como passar os dados de quantificação para a planilha
+  </a>
+ </li>
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="quantif.html">
+   Quantificação de DNA
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2">
+    <a class="reference internal" href="quantif2.html">
+     Preparando materiais
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="quantif3.html">
+     Ligando o aparelho
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="quantif4.html">
+     Calibrar
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Quantificando amostras
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="quantif6.html">
+     Juntando estoques
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="quantif7.html">
+     Salvando
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="quantif8.html">
+     Desligando o aparelho
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="quantif9.html">
+     De volta ao laboratório
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="purifi.html">
+   Purificação
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="purifi2.html">
+     Selecionando amostras
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="purifi3.html">
+     Preparando materiais
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="purifi4.html">
+     Purificação - Parte I
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="purifi5.html">
+     Purificação - Parte II
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="purifi6.html">
+     Após o procedimento
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="_sources/quantif5.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#observacoes">
+   Observações:
+  </a>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Quantificando amostras</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#observacoes">
+   Observações:
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="quantificando-amostras">
+<h1>Quantificando amostras<a class="headerlink" href="#quantificando-amostras" title="Permalink to this headline">#</a></h1>
+<ul class="simple">
+<li><p>Identificar a amostra a ser quantificada em “Sample ID” com o código completo</p></li>
+<li><p>Abrir com cuidado os microtubos contendo as amostras, com a abertura virada para seu peito e sem tocar no interior do microtubo, apenas na aba da tampa. Utilizar as duas mãos.</p></li>
+</ul>
+<p align="center" >
+  <img src="https://drive.google.com/uc?id=1mSWCLu5tC45Btj9zukwuugL6YZpm1O4a" />
+</p>
+<ul class="simple">
+<li><p>Certifique-se de que a amostra a ser lida esteja devidamente solubilizada. Adicionar 1µl da amostra já extraída no pedestal inferior e realizar a quantificação clicando no botão “Measure” (F1). Aguardar a leitura</p></li>
+<li><p>Será exibida uma série de cálculos, sendo os mais importantes os cálculos de 260/280, indicando pureza e 260/230, indicando contaminação. O DNA deve ter uma proporção de 260/280 entre 1,8 e 2,0, enquanto o RNA deve ser acima de 2,0. Para o valor de contaminação este deve estar entre 1,8 e 2,2.</p></li>
+</ul>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
+<div class="note admonition">
+<p class="admonition-title">Nota:</p>
+<p>Para saber mais como as razões 260/280 e 260/230 são calculadas e como interpretá-las acesse:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://dna.uga.edu/wp-content/uploads/sites/51/2019/02/Note-on-the-260_280-and-260_230-Ratios.pdf">260/280 and 260/230 Ratios</a></p></li>
+<li><p><a class="reference external" href="https://bitesizebio.com/25270/quick-reference-determining-dna-concentration-purity/">Determining DNA Concentration &amp; Purity</a></p></li>
+</ul>
+</div>
+</aside>
+<figure class="align-default" id="calculos-figure">
+<img alt="https://drive.google.com/uc?id=1qwiovsbc2ZXZegyDODFWJys1SE2IhD7V" src="https://drive.google.com/uc?id=1qwiovsbc2ZXZegyDODFWJys1SE2IhD7V" />
+</figure>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>260/280</p></th>
+<th class="head"><p>260/230</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>DNA</p></td>
+<td><p>~1,8</p></td>
+<td><p>Entre 1,8 e 2,2</p></td>
+</tr>
+<tr class="row-odd"><td><p>RNA</p></td>
+<td><p>~2,0</p></td>
+<td><p>Entre 1,8 e 2,2</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p>Levantar e limpar a ponta do braço e o pedestal com papel macio <span style="background-color: ##fcf19d">a cada medição</span>, mesmo que da mesma amostra.</p></li>
+</ul>
+<div class="warning admonition">
+<p class="admonition-title">Atenção:</p>
+<p>Realize duas medições de cada amostra para garantir que você obtenha uma leitura correta da concentração real das amostras. Medir uma terceira vez caso a variação da concentração entre as duas medições for maior que 100 ng/μL, ou haja uma variação grande nas razões 260/280 ou 260/230.</p>
+</div>
+<section id="observacoes">
+<h2>Observações:<a class="headerlink" href="#observacoes" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>Observe os valores de concentração e as razões 260/280 e 260/230 entre as duas medições da mesma amostra. Caso a variação da concentração entre as duas medições for maior que 100 ng/μL, ou haja uma variação grande nas razões 260/280 ou 260/230, conferir se a amostra está solubilizada e medir a amostra uma terceira vez</p></li>
+<li><p>Caso o gráfico gerado possua muitos picos e vales, é possível que uma bolha tenha se formado no pedestal. Caso isso ocorra, desconsidere e repita medição</p></li>
+</ul>
+<figure class="align-default" id="bolha-figure">
+<img alt="https://drive.google.com/uc?id=1QMM500Yv28QBpOeWiT5LB2dmYMb1RmRz" src="https://drive.google.com/uc?id=1QMM500Yv28QBpOeWiT5LB2dmYMb1RmRz" />
+</figure>
+<ul class="simple">
+<li><p>Adicionar solução de reidratação (50µL-100µL) nas situações descritas a seguir. Lembrar de homogeneizar e medir a amostra novamente</p>
+<ul>
+<li><p>Caso uma amostra varie muito de concentração depois de 3 ou mais medições e a amostra esteja viscosa sem presença de corpo esbranquiçado (DNA não solubilizado)</p></li>
+<li><p>Caso a concentração seja superior a 1000 ng/μL</p></li>
+</ul>
+</li>
+<li><p>Caso esqueça de trocar o nome de uma amostra entre uma quantificação e outra, ir em <em>Reports</em> no menu inforior esquerdo. Na lista de amostras que aparecer na tela, procure e clique duas vezes sobre o nome da amostra que deseja alterar</p></li>
+</ul>
+<figure class="align-default" id="nome-figure">
+<img alt="https://drive.google.com/uc?id=1A5yQQiYSxp4P4f8haOZYfXShW2UkSK1O" src="https://drive.google.com/uc?id=1A5yQQiYSxp4P4f8haOZYfXShW2UkSK1O" />
+</figure>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="quantif4.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Calibrar</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="quantif6.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Juntando estoques</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By LGMH<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>
