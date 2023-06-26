@@ -1,4 +1,4 @@
-# Preparando materiais
+# Materiais
 
 * Reservar um horário no NanoDrop através do link: [https://teamup.com/kshxhcwit5kbv3nfqm](https://teamup.com/kshxhcwit5kbv3nfqm)
 
