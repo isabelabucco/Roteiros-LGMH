@@ -68,13 +68,13 @@ name: pendrive-figure
 :class: attention
 
  Caso o LabCHO esteja fechado, pegar a chave do mesmo na gaveta 12 da sala da eletroforese
- 
+
+```
+
  ```{figure} https://drive.google.com/uc?id=1CVEQgPkCNoBtF8Qw43lDUg1-3HgMtxjW
 ---
 
 name: chave-figure
 ---
-
-```
 
 ```
