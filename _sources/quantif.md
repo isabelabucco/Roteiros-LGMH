@@ -9,7 +9,7 @@ name:
 ```
 
 ## Índice
-*  [Preparando Materiais](./quantifcacao.md)
+*  [Preparando Materiais](./quantificacao.md)
 *  [Ligando o aparelho](./quantif3.md)
 *  [Calibração](./quantif4.md)
 *  [Quantificando amostras](./quantif5.md)
