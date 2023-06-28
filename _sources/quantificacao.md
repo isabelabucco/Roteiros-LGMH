@@ -16,6 +16,13 @@ name: teamup-figure
 
 * Homogeneizar as amostras batendo levemente no tubo
 
+
+<p align="center" >
+  <img src="https://drive.google.com/uc?id=1koW2H7DXIhXi5kEbea2tbXYEKn1P2cpt" />
+
+</p>
+
+
 * Equilibrar as amostras em uma centrífuga
 
 ```{figure} https://drive.google.com/uc?id=19a2aQXdwz3VSV7KW0KfLp7P5jsP65irD
