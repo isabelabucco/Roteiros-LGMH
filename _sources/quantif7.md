@@ -58,7 +58,17 @@ name: print-figure
 ```{figure} https://drive.google.com/uc?id=1xYFQ6GCqTYselYOTdyxRZO_eGIPB7Ins
 
 ```
+* No menu lateral no canto esquerdo, selecionar a pasta do pendrive inserido, selecionar a pasta quantificações, e depois a pasta do mês correspondente ao que foi feita a quantificação. No nome do arquivo indicar a data e qual a amostra inicial e final que foi quantificada, como a seguir: 16MAIO23_MG1540_SCU132
 
+```{figure} https://drive.google.com/uc?id=19Op-aYb4NavqtgO2V_5ietPnCOWj8phC
+---
+
+name: nomexml-figure
+---
+
+```
+
+* Abrir o arquivo para conferir se foram salvas todas as amostras.
 
 ## Salvar em .xml
 
