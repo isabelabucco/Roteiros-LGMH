@@ -9,7 +9,9 @@ $$
 
 * Homogeneizar no vórtex por 20 segundos 
 
-* Adicionar $ \frac{1}{25} $ vols de NaCl 5M (concentração final de 0,2M) nos microtubos vazios  
+* Centrifugar a 14000 rpm por 10 minutos;
+
+* Enquanto as amostras estão na centrífuga, adicionar $ \frac{1}{25} $ vols de NaCl 5M (concentração final de 0,2M) nos microtubos vazios  
 
 $$
 \frac{V_{o} + V_{PPT Prot}}{25}
