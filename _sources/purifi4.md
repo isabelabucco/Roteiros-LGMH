@@ -38,20 +38,6 @@ name:
 </p>
 
 
-
-* Observar o tamanho da medusa formada
-  * Caso seja uma medusa média a grande, anotar na ficha de purificação impressa __100μL__ no campo de volume final reidratado
-  * Caso seja uma medusa pequena ou não visível, anotar na ficha de purificação impressa __50μL__ no campo de volume final reidratado 
-  
-
-  
- ```{admonition} Nota
-:class: note
-
-Lembre de passar esse valor para a planilha no computador após terminar a purificação 
-
-```
-
 * Armazenar durante 60 minutos a –20°C no freezer da sala de processamento de amostras 
 
 

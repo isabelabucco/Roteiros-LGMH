@@ -59,7 +59,7 @@ name:
 
 ```
 
-* Ressuspender o DNA com o volume que escreveu na ficha de purificação no campo de volume final reidratado, conforme indicações do capítulo [anterior](./purifi4.md)
+* Ressuspender o DNA adicionando 50 μL de solução de reidratação
 
 
 ## Caso queira voltar a amostra para o tubo original 
