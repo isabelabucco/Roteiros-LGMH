@@ -86,6 +86,16 @@ name: aba-figure
 ---
 
 ```
+
+```{admonition} ATENÇÃO
+:class: attention
+
+Caso prefira copiar os dados de um arquivo xml, lembrar que é necessário inserir duas casas decimais nos números indicados na concentração e uma casa decimal nos números da pureza e contaminação. No caso abaixo, a amostra 23 teria uma concentração de 355,7 ng/µl, pureza igual a 1,85 e contaminação igual a 2,30
+
+```{figure} https://drive.google.com/uc?id=1dp2TqLbQ2FTg5KP3nsQgQMyqWjX4GCpN
+
+```
+
 * Se o valor 260/230 for inferior a 1,75 ou superior a 2,50, pintar as três células - concentração, 260/280 e 260/230 - de azul ciano  
 
 * Após inserir os dados na planilha destinar a amostra a um dos seguintes fins:

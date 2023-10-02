@@ -1,6 +1,6 @@
 # Salvando
 
-Salvar em PDF e xml. O passo a passo para salvar em cada um desses formatos está descrito abaixo:
+Salvar em PDF e xml. O passo a passo para salvar em cada um desses formatos está descrito abaixo.
 
 ## Salvar em .pdf
 https://drive.google.com/file/d//view?usp=sharing
@@ -58,7 +58,10 @@ name: print-figure
 ```{figure} https://drive.google.com/uc?id=1xYFQ6GCqTYselYOTdyxRZO_eGIPB7Ins
 
 ```
-* No menu lateral no canto esquerdo, selecionar a pasta do pendrive inserido, selecionar a pasta quantificações, e depois a pasta do mês correspondente ao que foi feita a quantificação. No nome do arquivo indicar a data e qual a amostra inicial e final que foi quantificada, como a seguir: 16MAIO23_MG1540_SCU132
+* No menu lateral no canto esquerdo, selecionar a pasta do pendrive inserido, selecionar a pasta quantificações, e depois a pasta do mês correspondente ao que foi feita a quantificação. No nome do arquivo indicar a data e qual a amostra inicial e final que foi quantificada, como a seguir: 
+
+  - 16MAIO23_MG1540_SCU132 para amostras quantificadas pela primeira vez
+  - 16MAIO23_MG1540_SCU132 para amostras que foram purificadas e requantificadas
 
 ```{figure} https://drive.google.com/uc?id=19Op-aYb4NavqtgO2V_5ietPnCOWj8phC
 ---
@@ -91,7 +94,10 @@ name: export-figure
 ---
 
 ```
-* No menu lateral no canto esquerdo, selecionar a pasta do pendrive inserido, selecionar a pasta quantificações, e depois a pasta do mês correspondente ao que foi feita a quantificação. No nome do arquivo indicar a data e qual a amostra inicial e final que foi quantificada, como a seguir: 16MAIO23_MG1540_SCU132
+* No menu lateral no canto esquerdo, selecionar a pasta do pendrive inserido, selecionar a pasta quantificações, e depois a pasta do mês correspondente ao que foi feita a quantificação. No nome do arquivo indicar a data e qual a amostra inicial e final que foi quantificada, como a seguir:
+
+  - 16MAIO23_MG1540_SCU132 para amostras quantificadas pela primeira vez
+  - 16MAIO23_MG1540_SCU132 para amostras que foram purificadas e requantificadas
 
 ```{figure} https://drive.google.com/uc?id=19Op-aYb4NavqtgO2V_5ietPnCOWj8phC
 ---
