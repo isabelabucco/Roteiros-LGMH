@@ -8,7 +8,7 @@ name: excel-figure
 ---
 
 ```
-
+## Amostras quantificadas pela primeira vez
 
 * Abrir a geladeira da sala de eletroforese e procurar pelas criobox com a identificação que as amostras já foram quantificadas, com a data mais antiga: 
 
@@ -121,3 +121,71 @@ name: aba-figure
 Completar todo o trabalho para as amostras que forem passadas para planilha, destinando cada uma para a próxima etapa.
 
 ``` 
+
+## Amostras purificadas
+
+* Inserir o pendrive que está sendo usado para salvar os resultados das quantificações, selecionar a pasta Quantificações, depois selecionar o mês conforme a indicação da data da quantificação na criobox, e depois selecionar o arquivo correspondente. O nome do arquivo estará nesse formato _16MAIO23_MG1540_SCU132_purif_
+
+* Pegar a caixa correspondente, com as amostras que foram quantificadas, na geladeira da sala da eletroforese
+
+* Abrir a pasta Purificação 2023 
+
+```{figure} https://drive.google.com/uc?id=1-9sHWAoOgl0nj-rcAdBQpgLYHkbmzQaa
+---
+
+name:
+---
+
+```
+* Abrir o documento  <span style="color:#769450">"Amostras para purificar.xlsx"</span>
+
+* Abir a aba Dados quantificação
+
+* Inserir o código da amostra por ordem numérica. Se necessário, crie novas linhas.
+
+* Abrir o Google Chrome, escrever DNA no navegador e selecionar a planilha "[DNA]_QUALIDADE_ESTOQUE_USO_RECOLETA_" ou selecionar a mesma planilha nos atalhos do Google Chrome 
+
+```{figure} https://drive.google.com/uc?id=1xtj1vFn8PvS7lo7M5QSkb4z2kXVuUeZ_
+---
+height: 250px
+name: planilha-figure2
+---
+
+```
+* Anotar o valor que está na planilha _"[DNA]_QUALIDADE_ESTOQUE_USO_RECOLETA"_ marcado em azul ciano nas células nas colunas nomeadas como [DNA] pré purificação na planilha  <span style="color:#769450">"Amostras para purificar.xlsx"</span>
+
+```{figure} https://drive.google.com/uc?id=
+---
+
+name:
+---
+
+```
+
+* Substituir o valor das células na planilha "[DNA]_QUALIDADE_ESTOQUE_USO_RECOLETA"_ pelo valor da nova quantificação. Trocar também a data. 
+
+* Amostras purificadas normamente apresentam um volume de 50 μl. Checar se esse é o caso e se for, substituir o valor da coluna Volume, do DNA estoque.
+
+* Caso os parâmetros de pureza e contaminação estejam dentro do intervalo aceitável, trocar as células azul ciano para sem preenchimento.
+
+* Inserir o novo valor da quantificação também na aba Dados quantificação do documento 
+<span style="color:#769450">"Amostras para purificar.xlsx"</span>, nas colunas [DNA] pós purificação
+
+```{figure} https://drive.google.com/uc?id=
+---
+
+name:
+---
+
+```
+
+* Quando existem amostras com a mesma numeração, sendo uma indicada como P2, quer dizer que elas partiram de uma mesma amostra
+
+### CASO 3 
+
+Quando já existe uma entrada na planilha da amostra que foi purificada, porém com uma data diferente (meses ou anos de diferença), as duas devem ser mantidas na criobox armazenada no ultrafreezer (-80°C). 
+
+1) Caso já exista uma amostra uso para uma das amostras, normalmente indicado quando já existe uma data na coluna <span style="color:#D75413">"data uso"</span>, a amostra pode ser destinada para a criobox **"guardar"** na geladeira da sala da eletroforese. Caso não encontre uma caixa com essa indentificação, crie uma.
+
+2) Caso não exista uma amostra uso, indicada pela falta de data na a coluna <span style="color:#D75413">"data uso"</span>, destinar essa amostra para a criobox **"fazer uso"** na geladeira da sala da eletroforese. Caso não encontre uma caixa com essa indentificação, crie uma.
+

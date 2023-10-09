@@ -28,9 +28,9 @@ name: juntano-figure
 
 ```
 
-`````{admonition} Dica
-:class: tip
-Você também pode requantificar as amostras que foram juntadas no final
 
+`````{admonition} Atenção:
+:class: tip
+No caso de amostras purificadas, é possível que alguns microtubos apresentem volume menor que 200 μL. Sempre observe o volume final obtido após a junção das amostras para uma anotação mais precisa
 `````
 

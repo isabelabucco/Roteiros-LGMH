@@ -1,13 +1,7 @@
 # Ligando o aparelho
 
-* No LabCHO, ligar o nanodrop na tomada, ligar o computador e inserir a senha “cito25onco” 
+* No LabCHO, ligar o nanodrop na tomada, ligar o computador e inserir a senha “onco25cito” 
 
-```{figure} https://drive.google.com/uc?id=159rf1ICr3oont_GDDc2seOzSLYFYw8Vm
----
-name: senha-figure
----
-
-```
 
 * Retirar a capa de proteção do aparelho. Levantar o braço do aparelho, inserir 2 μL de água ultrapura no pedestal inferior com a pipeta p10 e abaixar o braço
 
