@@ -90,7 +90,7 @@ name: aba-figure
 ```{admonition} ATENÇÃO
 :class: attention
 
-Caso prefira copiar os dados de um arquivo xml, lembrar que é necessário inserir duas casas decimais nos números indicados na concentração e uma casa decimal nos números da pureza e contaminação. No caso abaixo, a amostra 23 teria uma concentração de 355,7 ng/µl, pureza igual a 1,85 e contaminação igual a 2,30
+Caso prefira copiar os dados de um arquivo xml, lembrar que é necessário inserir uma casa decimal nos números indicados na concentração e duas casa decimais nos números da pureza e contaminação. No caso abaixo, a amostra 23 teria uma concentração de 355,7 ng/µl, pureza igual a 1,85 e contaminação igual a 2,30
 
 ```{figure} https://drive.google.com/uc?id=1dp2TqLbQ2FTg5KP3nsQgQMyqWjX4GCpN
 
@@ -193,6 +193,7 @@ name:
 | RNA | ~2,0    | Entre 1,8 e 2,2  |   
 |     |         |                  | 
 
+
 * Inserir o novo valor da quantificação também na aba Dados quantificação do documento 
 <span style="color:#769450">"Amostras para purificar.xlsx"</span>, nas colunas [DNA] pós purificação
 
@@ -204,7 +205,26 @@ name:
 
 ```
 
-* Quando existem 2 amostras purifificadas com a mesma numeração, sendo uma indicada como P2, quer dizer que elas partiram de uma mesma amostra. Por isso o valor do DNA pré purificação será o mesmo.
+* Quando existem 2 amostras purifificadas com a mesma numeração, sendo uma indicada como P2, quer dizer que elas partiram de uma mesma amostra. Por isso o valor do DNA pré purificação será o mesmo. Caso uma das amostras esteja dentro dos parâmetros acima e a outra não, anotar somente a amostra com bons parâmetros na planilha [DNA]_QUALIDADE_ESTOQUE_USO_RECOLETA"_  e destiná-la para uso. A que apresenta valores abaixo ou acima do padrão devem ser anotadas apenas na planilha <span style="color:#769450">"Amostras para purificar.xlsx"</span>, aba "dados quantificação" e destinadas conforme indicado no Caso 2 abaixo.
+
+
+
+```{figure} https://drive.google.com/uc?id=1joR8AegRDqQOWSSk4BAtl5ze3UzbHNQW
+---
+
+name:
+---
+
+```
+
+
+
+```{admonition} Atenção:
+:class: warning
+
+Lembre sempre de mudar o volume final do DNA estoque quando necessário e a data da quantificação para a mais recente. Pode ser necessário adicionar alguma identificação na descrição do estoque (coluna B). Lembre: Todos devem saber qual amostra aqueles dados se referem, então adicione uma quantidade ideal de dados para caracterizar essa amostra.
+```
+
 
 Para guardar a amostra e destiná-la à próxima etapa, algumas situações podem surgir:
 
