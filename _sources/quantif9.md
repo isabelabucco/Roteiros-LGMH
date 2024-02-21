@@ -16,7 +16,7 @@
 ```
 
 
-* Higienizar as pipetas e guardá-las na sala de processamento de amostras
+* Higienizar as pipetas e guardá-las na sala de processamento de amostras. Voltá-las ao volume máximo.
 
 * Com uma luva limpa, preencher as caixas de ponteiras, uma a uma, não tocando na ponta da ponteira, apenas na base
 

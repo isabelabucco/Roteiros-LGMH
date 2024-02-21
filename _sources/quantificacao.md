@@ -1,6 +1,6 @@
 # Preparando Materiais
 
-* Reservar um horário no NanoDrop através do link: [https://teamup.com/kshxhcwit5kbv3nfqm](https://teamup.com/kshxhcwit5kbv3nfqm)
+* Reservar um horário no NanoDrop através do link: [https://teamup.com/kshxhcwit5kbv3nfqm](https://teamup.com/kshxhcwit5kbv3nfqm). Planeje aproximadamente 20 minutos a cada 30 amostras
 
 ```{figure} https://drive.google.com/uc?id=1mst7E0tT8Hr10sfTxoNgikKDJaDxkSDg
 ---

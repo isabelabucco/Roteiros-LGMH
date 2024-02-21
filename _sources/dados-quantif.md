@@ -173,6 +173,8 @@ name:
 
 ```
 
+
+
 * Substituir o valor das células na planilha "[DNA]_QUALIDADE_ESTOQUE_USO_RECOLETA"_ pelo valor da nova quantificação. Trocar também a data. 
 
 ```{figure} https://drive.google.com/uc?id=1YmiG8P_U-megNs7xPu-96j-gPNWGbtll
@@ -182,6 +184,13 @@ name:
 ---
 
 ```
+
+```{admonition} ATENÇÃO
+:class: warning
+
+Caso o valor de contaminação esteja fora do intervalo aceitável, pular essa etapa e só anotar valor pré purificação e pós purificação na planilha <span style="color:#769450">"Amostras para purificar.xlsx"</span>. aba Dados quantificação
+
+``` 
 
 * Amostras purificadas normamente apresentam um volume de 50 μl. Checar se esse é o caso e se for, substituir o valor da coluna Volume, do DNA estoque na planilha "[DNA]_QUALIDADE_ESTOQUE_USO_RECOLETA"_.
 
@@ -205,6 +214,10 @@ name:
 
 ```
 
+* Lembre de salvar a planilha do Excel e do Google antes de fechar
+
+## Dúvidas, e agora?
+
 * Quando existem 2 amostras purifificadas com a mesma numeração, sendo uma indicada como P2, quer dizer que elas partiram de uma mesma amostra. Por isso o valor do DNA pré purificação será o mesmo. Caso uma das amostras esteja dentro dos parâmetros acima e a outra não, anotar somente a amostra com bons parâmetros na planilha [DNA]_QUALIDADE_ESTOQUE_USO_RECOLETA"_  e destiná-la para uso. A que apresenta valores abaixo ou acima do padrão devem ser anotadas apenas na planilha <span style="color:#769450">"Amostras para purificar.xlsx"</span>, aba "dados quantificação" e destinadas conforme indicado no Caso 2 abaixo.
 
 
@@ -216,7 +229,16 @@ name:
 ---
 
 ```
+* Quando há a quantificação de duas amostras do mesmo indivíduo, e na sequência há a quantificação do mesmo indivíduo seguinte de um volume, por exemplo MG1 176 PGM 200 ul, isso quer dizer que as amostras anteriores foram juntadas como indicado no procedimento [Juntando Estoques](./quantif6.md)
 
+
+```{figure} https://drive.google.com/uc?id=1A1Dk3lYnrzjEUrIwzvMRKnzfOaGLbRhP
+---
+
+name:
+---
+
+```
 
 
 ```{admonition} Atenção:
@@ -225,13 +247,24 @@ name:
 Lembre sempre de mudar o volume final do DNA estoque quando necessário e a data da quantificação para a mais recente. Pode ser necessário adicionar alguma identificação na descrição do estoque (coluna B). Lembre: Todos devem saber qual amostra aqueles dados se referem, então adicione uma quantidade ideal de dados para caracterizar essa amostra.
 ```
 
+## Guardando amostras
 
 Para guardar a amostra e destiná-la à próxima etapa, algumas situações podem surgir:
 
 
+### CASO 1
+
+Quando o resultado da purificação for o desejável, ou seja, quando os valores estão dentro dos indicados abaixo, guardá-la na criobox "Fazer uso" na geladeira da sala da eletroforese. 
+
+|     | 260/280 | 260/230          |   
+|-----|---------|------------------|
+| DNA | ~1,8    | Entre 1,75 e 2,5 |  
+| RNA | ~2,0    | Entre 1,8 e 2,2  |   
+|     |         |                  | 
+
 ### CASO 2
 
-Quando o resultado da purificação não for o desejável, ou seja, quando os valores distoam dos indicados abaixo, guardá-la na criobox "Purificada e continua contaminada" na geladeira da sala da eletroforese.  
+Quando o resultado da purificação não for o desejável, ou seja, quando os valores distoam dos indicados acima, guardá-la na criobox "Purificada e continua contaminada" na geladeira da sala da eletroforese.  
 
 
 

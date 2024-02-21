@@ -1,6 +1,7 @@
 # Quantificando amostras
 
 * Identificar a amostra a ser quantificada em “Sample ID” com o código completo 
+* Não homogenize as amostras novamente após tê-las centrifugadas
 
 * Abrir com cuidado os microtubos contendo as amostras, com a abertura virada para seu peito e sem tocar no interior do microtubo, apenas na aba da tampa. Utilizar as duas mãos. 
 

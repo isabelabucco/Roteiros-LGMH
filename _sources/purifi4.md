@@ -9,7 +9,7 @@ $$
 
 * Homogeneizar no vórtex por 20 segundos 
 
-* Centrifugar a 14000 rpm por 10 minutos;
+* Centrifugar a 14000 rpm por 10 minutos à temperatura ambiente
 
 * Enquanto as amostras estão na centrífuga, adicionar $ \frac{1}{25} $ vols de NaCl 5M (concentração final de 0,2M) nos microtubos vazios  
 
